@@ -6,6 +6,7 @@ plugins {
     alias(libs.plugins.detekt)
     alias(libs.plugins.ktlint)
     alias(libs.plugins.versionCheck)
+    id("com.android.application") version "7.4.0-beta05" apply false
 }
 
 subprojects {
