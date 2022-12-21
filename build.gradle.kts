@@ -6,7 +6,7 @@ plugins {
     alias(libs.plugins.detekt)
     alias(libs.plugins.ktlint)
     alias(libs.plugins.versionCheck)
-    id("com.android.application") version "7.4.0-rc01" apply false
+    id("com.android.application") version "7.4.0-rc02" apply false
 }
 
 subprojects {
