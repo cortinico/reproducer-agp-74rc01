@@ -7,7 +7,7 @@ plugins {
 dependencies {
     implementation(kotlin("stdlib"))
     implementation(gradleApi())
-    implementation("com.android.tools.build:gradle:7.4.1")
+    implementation("com.android.tools.build:gradle:8.1.1")
 
     testImplementation(libs.junit)
 }
